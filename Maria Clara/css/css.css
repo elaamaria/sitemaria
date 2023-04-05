@@ -1,0 +1,156 @@
+body {font-family: 'Times New Roman', Times, serif;
+    background-color: #abc9bc;}
+
+.Logo {height:200px;
+     top: 50px;
+     left: 70px;
+     position: fixed;}
+
+     .textura {height: 1300px;position: fixed; left: -100px; top: -115px;}
+     
+     .Foto {
+        width: 450px;
+        padding-bottom: 600px;
+        left: 210px;
+        top: 340px;
+        position: fixed}
+        .Foto {transition: all 0.2s;opacity: 1;}
+        .Foto:hover{opacity: 0.1;}
+
+
+     nav{position: fixed; top: 150px; right: 50px;}
+     nav a {background-color: #9ac6b3;padding: 20px; text-decoration: none; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #ffffff; border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;}
+
+    
+
+     .Início {transition: all 1s;cursor: pointer;}
+     .Início:hover {filter: blur(10px);}
+     .Embalagem {transition: all 1s;cursor: pointer;}
+     .Embalagem:hover {filter: blur(10px);}
+     .Editorial {transition: all 1s;cursor: pointer;}
+     .Editorial:hover {filter: blur(10px);}
+     .Fotografia {transition: all 1s;cursor: pointer;}
+     .Fotografia:hover {filter: blur(10px);}
+     .Contatos {transition: all 1s;cursor: pointer;}
+     .Contatos:hover {filter: blur(10px);}
+
+
+p{ color:#000000;
+   position: relative;
+   text-align: justify;
+   left: 900px;
+   font-size: 26pt;
+   width: 600px; margin: left 900px; margin-right: 50px;top: 250px;}
+.sub {font-size: 50pt;
+top: 250px;}
+
+.descriçao {font-size: 10pt; color: #ffffff;
+   top: 446px; position: absolute;
+   text-align: justify;
+   left: 114px;
+   font-size: 16pt;
+   width: 400px;}
+
+     footer {width: 100%;height: 190px; background-color: #79b49b; position: fixed; bottom: 0px;}
+
+     .fotos {
+        display: block;
+        height: 293px;
+        right: -100px;
+        width: 800px;
+        margin: auto;
+        margin-top: 320px;
+        position: relative;
+    }
+  
+  .fotos li {
+    list-style: none;
+    position: absolute;
+}
+  
+  .fotos img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+  
+  .fotos input {
+    display: none;
+}
+  .fotos label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+  
+.fotos li:nth-child(1) label {
+    left: 10px;
+}
+
+.fotos li:nth-child(2) label {
+    left: 40px;
+}
+
+.fotos li:nth-child(3) label {
+    left: 70px;
+}
+
+  
+  .fotos img {
+    opacity: 0;
+    visibility: hidden;
+}
+  
+  .fotos li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.barra {height:200px;
+   width: 500px;
+   top: 400px;
+   left: 70px;
+   position: fixed;}
+
+   .sucos {
+    width: 500px;
+    padding-bottom: 600px;
+    left: 210px;
+    top: 400px;
+    position: fixed}
+  .sucos {transition: all 1s; cursor: pointer;}
+    .sucos:hover{transform: scale(1.5)}
+
+    .morango {
+      width: 500px;
+      padding-bottom: 600px;
+      right: 210px;
+      top: 400px;
+      position: fixed}
+    .morango {transition: all 1s; cursor: pointer;}
+      .morango:hover{transform: scale(1.5)}
+
+      .barra3 {height:340px;
+        top: 420px;
+        left: 730px;
+        position: fixed;}
+
+        .descriçao2 {font-size: 10pt; color: #ffffff;
+          top: 480px; position: absolute;
+          text-align: justify;
+          left: 760px;
+          font-size: 20pt;
+          width: 400px;}
+
+        
